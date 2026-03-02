@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:descuin.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:descuin.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:descuin.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "sw/ANe7vjTCYMemDNyAraqzIT9rexCRpNmxR3ieWOAI=",
+        "y": "MJpipji5WPMoffbHzJfr1R/mZemyONzwAkjrVIFfYTw="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:descuin.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:descuin.github.io#owner"
+  ]
+}
